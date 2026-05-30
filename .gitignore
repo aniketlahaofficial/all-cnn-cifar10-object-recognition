@@ -1,0 +1,28 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Model weights (large files — track with Git LFS or share via link instead)
+# *.hdf5
+# *.h5
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Data (CIFAR-10 downloads automatically via Keras)
+*.tar.gz
+cifar-10-batches-py/
