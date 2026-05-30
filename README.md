@@ -56,6 +56,15 @@ Open `Object_Recognition_.ipynb` in Jupyter or Google Colab and run the cells
 in order. To skip training, make sure the pre-trained weights file
 (`all_cnn_weights_0.9088_0.4994.hdf5`) is in the same directory.
 
+## Pre-trained weights
+
+This project uses pre-trained All-CNN weights
+(`all_cnn_weights_0.9088_0.4994.hdf5`) originally provided by
+[PAN001's All-CNN repo](https://github.com/PAN001/All-CNN). Download the
+file from there and place it in the project root before running the
+evaluation cells. Alternatively, train the model from scratch by running
+the training cell (takes several hours without a GPU).
+
 ## Authors
 
 Group 10 — Kokkiripati Abhishek Kumar, Pushkar Patel, Aniket Laha , Ashish Kumar
